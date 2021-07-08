@@ -1,0 +1,78 @@
+@media (max-width:1040px) {
+    .flex-container-p {
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width:1041px) {
+    .flex-container-p {
+        justify-content: center;
+    }
+}
+
+body {
+    background-color: black;
+}
+
+.board {
+    background-image: url(../images/body_bg_image.jpeg);
+    background-size: cover;
+    margin: 5% auto;
+    padding: 15px;
+    width: 80%;
+    min-height: 500px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 4px white;
+}
+
+.mainContent {
+    background-image: url(../images/mainCont_bg_image.jpeg);
+    opacity: 0.7;
+    margin: 5% 15%;
+    padding: 5%;
+    border-radius: 7%;
+    box-shadow: 2px 3px 10px 5px yellow,
+                2px 3px 10px 5px brown;
+}
+
+p {
+    white-space: nowrap;
+}
+
+#firstValue, #secondValue {
+    margin: 5px;
+    text-align: center;
+}
+
+.flex-container-p,
+.flex-container-btn {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.flex-container-btn {
+    justify-content: center;
+}
+
+.button {
+    background-color: rgb(210,180,140);
+    margin: 5px;
+    padding: 5px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+#output {
+    background-color: bisque;
+    margin: 10px auto;
+    padding: 10px;
+    width: 88%;
+    min-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
